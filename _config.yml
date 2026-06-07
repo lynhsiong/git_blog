@@ -2,5 +2,5 @@ title: Lyn's Blog
 description: Bioinformatics | Single-cell Genomics | AI-driven Research
 baseurl: /git_blog
 url: "https://lynhsiong.github.io"
-markdown: kramdown
-theme: null
+# Jekyll 3.x default theme (overridden by _layouts/default.html)
+theme: minima
