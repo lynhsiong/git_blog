@@ -1,0 +1,166 @@
+/* === Reset & Base === */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #333;
+  background: #fafafa;
+}
+
+/* === Navbar === */
+.navbar {
+  background: #2c3e50;
+  padding: 0 1rem;
+  position: sticky; top: 0; z-index: 100;
+}
+.nav-inner {
+  max-width: 860px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 52px;
+}
+.nav-brand {
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+.nav-links a {
+  color: #bdc3c7;
+  margin-left: 1.5rem;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: color 0.15s;
+}
+.nav-links a:hover { color: #fff; }
+
+/* === Container === */
+.container {
+  max-width: 860px;
+  margin: 2rem auto;
+  padding: 0 1.5rem;
+}
+
+/* === Blog post list (index) === */
+.post-list { list-style: none; }
+.post-item {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #eee;
+}
+.post-item:last-child { border-bottom: none; }
+.post-title {
+  font-size: 1.4rem;
+  margin-bottom: 0.3rem;
+}
+.post-title a {
+  color: #2c3e50;
+  text-decoration: none;
+}
+.post-title a:hover { color: #3498db; }
+.post-meta {
+  font-size: 0.85rem;
+  color: #999;
+}
+.post-excerpt { margin-top: 0.4rem; color: #666; }
+
+/* === Page content === */
+.page-header {
+  margin-bottom: 2rem;
+}
+.page-title {
+  font-size: 1.8rem;
+  color: #2c3e50;
+  margin-bottom: 0.3rem;
+}
+
+/* === About / CV === */
+.lang-toggle {
+  display: flex; gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+.lang-btn {
+  padding: 0.35rem 0.9rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: #fff;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: all 0.15s;
+}
+.lang-btn.active {
+  background: #2c3e50;
+  color: #fff;
+  border-color: #2c3e50;
+}
+.lang-zh { display: none; }
+
+.cv-section {
+  margin-bottom: 2rem;
+}
+.cv-section h2 {
+  font-size: 1.2rem;
+  color: #2c3e50;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 0.3rem;
+  margin-bottom: 0.8rem;
+}
+.cv-section h3 {
+  font-size: 1rem;
+  color: #555;
+  margin-top: 1rem;
+  margin-bottom: 0.3rem;
+}
+.cv-item {
+  margin-bottom: 0.6rem;
+  line-height: 1.6;
+}
+.cv-item strong { color: #2c3e50; }
+.cv-date {
+  display: inline-block;
+  color: #3498db;
+  font-size: 0.85rem;
+  font-weight: 600;
+  min-width: 110px;
+}
+.cv-org { color: #888; font-size: 0.85rem; }
+.cv-pub {
+  margin-bottom: 1rem;
+  padding-left: 0.5rem;
+  border-left: 3px solid #3498db;
+}
+.cv-pub p { margin-bottom: 0.3rem; }
+.cv-pub .pub-title { font-style: italic; }
+.cv-pub .pub-authors { color: #666; font-size: 0.9rem; }
+.cv-pub .pub-journal { font-weight: 600; color: #2c3e50; }
+.cv-tag {
+  display: inline-block;
+  background: #eef2f7;
+  color: #555;
+  padding: 0.15rem 0.5rem;
+  border-radius: 3px;
+  font-size: 0.8rem;
+  margin: 0.15rem 0.1rem;
+}
+
+/* === Footer === */
+.footer {
+  max-width: 860px;
+  margin: 3rem auto;
+  padding: 1.5rem;
+  border-top: 1px solid #eee;
+  text-align: center;
+  color: #999;
+  font-size: 0.85rem;
+}
+
+/* === Responsive === */
+@media (max-width: 600px) {
+  .container { padding: 0 1rem; }
+  .post-title { font-size: 1.2rem; }
+  .page-title { font-size: 1.4rem; }
+  .cv-date { display: block; margin-bottom: 0.2rem; }
+}

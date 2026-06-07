@@ -1,12 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-   <title>{{ page.title }}</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ page.title }} - {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css" />
 </head>
 <body>
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a href="{{ site.baseurl }}/" class="nav-brand">{{ site.title }}</a>
+      <div class="nav-links">
+        <a href="{{ site.baseurl }}/">Blog</a>
+        <a href="{{ site.baseurl }}/about/">About</a>
+      </div>
+    </div>
+  </nav>
 
-   {{ content }}
+  <main class="container">
+    {{ content }}
+  </main>
 
+  <footer class="footer">
+    <p>&copy; {{ site.time | date: "%Y" }} Lyn Xiong. Powered by Jekyll &amp; GitHub Pages.</p>
+  </footer>
+
+  <script src="{{ site.baseurl }}/assets/js/lang-toggle.js"></script>
 </body>
 </html>

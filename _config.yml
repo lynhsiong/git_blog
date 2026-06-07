@@ -1,1 +1,6 @@
+title: Lyn's Blog
+description: Bioinformatics | Single-cell Genomics | AI-driven Research
 baseurl: /git_blog
+url: "https://lynhsiong.github.io"
+markdown: kramdown
+theme: null
