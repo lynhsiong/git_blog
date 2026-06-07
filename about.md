@@ -22,7 +22,15 @@ title: About
 
 <div class="cv-section">
   <h2>Research Interests</h2>
-  <p>Single-cell multi-omics, lncRNA evolution and function, computational immunology (TCR repertoire), AI-powered bioinformatics agents, and RNA structural biology.</p>
+  <p>AI-powered bioinformatics agents; single-cell multi-omics; computational immunology (TCR repertoire); lncRNA evolution and function; RNA structural biology; machine/deep learning for biomedical problems.</p>
+
+  <ul style="margin-top:0.6rem;padding-left:1.2rem;">
+    <li><strong>AI Agent Development.</strong> Product/function-oriented agent development paradigm. Over a decade of traditional development and backend management experience ensures efficient, high-quality agent engineering in practice. Has distilled omics data analysis workflows into agents that autonomously invoke bioinformatics tools and databases to complete analytical goals. [Ref: biokosmos_cli, idea2research, DigPaper]</li>
+    <li><strong>Machine &amp; Deep Learning.</strong> Extensive hands-on experience with SVM, RF, ensemble methods, CNN, and Transformer architectures, with proven ability to rapidly adapt models for biological domain problems.</li>
+    <li><strong>"Dry + Wet" Synergy.</strong> In bioinformatics — integration of multi-omics data including single-cell spatial-temporal analysis; RNA structural biology; molecular phylogenetics; and large-scale biological data processing. Experimentally proficient in cell &amp; molecular biology techniques, NGS library design and construction, and plasmid/viral vector workflows.</li>
+    <li><strong>Academic Publication &amp; Scientific Visualization.</strong> Rich experience in publishing and high-quality scientific figure design; able to critically evaluate and distill valuable scientific questions in a field.</li>
+    <li><strong>Leadership &amp; Management Systems.</strong> Workflow skills and management methodologies distilled through leadership roles, including the Pflow progress &amp; contribution management system.</li>
+  </ul>
 </div>
 
 <div class="cv-section">
@@ -181,13 +189,20 @@ title: About
 
 <h2 style="margin-bottom:0.2rem;">熊团林</h2>
 <p style="color:#888;margin-bottom:1.5rem;">
-  电话：18810860538 &middot;
   <a href="mailto:lynhsiong@hotmail.com">lynhsiong@hotmail.com</a>
 </p>
 
 <div class="cv-section">
   <h2>研究方向</h2>
-  <p>单细胞多组学、长链非编码 RNA 进化与功能、计算免疫学（TCR 组库）、生物信息智能体开发、RNA 结构生物学。</p>
+  <p>生物信息智能体开发、单细胞多组学、计算免疫学（TCR 组库）、长链非编码 RNA 进化与功能、RNA 结构生物学、机器学习/深度学习在生物学中的应用。</p>
+
+  <ul style="margin-top:0.6rem;padding-left:1.2rem;">
+    <li><strong>AI 智能体开发。</strong> 擅长产品/功能导向的智能体开发模式。十多年传统开发经验和后端管理能力，实践中能为高效高质量智能体开发"保驾护航"；已蒸馏组学数据分析范式，智能体根据目标自主调用生信工具及数据库，完成分析目标。[参考项目：biokosmos_cli、idea2research、DigPaper]</li>
+    <li><strong>机器学习与深度学习。</strong> 具有丰富的机器学习（SVM/RF/集成学习等）和深度学习（CNN/Transformer）模型训练实践，能快速适配架构解决生物学领域问题。</li>
+    <li><strong>"干湿结合"。</strong> 生物学数据分析方面，擅长包含单细胞时空等多组学数据的整合分析；RNA 结构生物学分析，分子系统发育等分析；具有处理生物学大数据的丰富经验。实验方面，熟练掌握各种细胞及分子生物学实验技术，文库设计及建库，质粒病毒载体等操作流程。</li>
+    <li><strong>学术发表与科技作图。</strong> 具有丰富的学术发表和高质量科技作图经验，能评估并提炼领域有价值的科学问题。</li>
+    <li><strong>管理技能与系统。</strong> 主持管理工作后蒸馏的工作技能，以及进度贡献管理系统 Pflow。</li>
+  </ul>
 </div>
 
 <div class="cv-section">
@@ -311,8 +326,8 @@ title: About
     <span class="cv-tag">Southern/Northern/Western</span>
     <span class="cv-tag">单细胞测序</span>
   </p>
-  <h3>兴趣</h3>
-  <p>手搓智能化原型，爱好登山，辩论，上下求索</p>
+  <h3>兴趣与个性</h3>
+  <p>手搓智能化原型，爱好登山、辩论，上下求索；干湿结合、产品思维驱动，追求将复杂生物学问题转化为可落地的技术方案。</p>
 </div>
 
 </div>
