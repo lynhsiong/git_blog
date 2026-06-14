@@ -3,14 +3,7 @@ layout: default
 title: About
 ---
 
-<div class="page-header">
-  <h1 class="page-title">About</h1>
-  <p style="color:#888;font-size:0.9rem;">English &middot; 仅英文版</p>
-</div>
-
 <!-- =================== ENGLISH =================== -->
-<div class="lang-en">
-
 <h2 style="margin-bottom:0.2rem;">Tuanlin Lyn Xiong</h2>
 <p style="color:#888;margin-bottom:1.5rem;">
   <a href="mailto:lynhsiong@hotmail.com">lynhsiong@hotmail.com</a> &middot;
@@ -177,5 +170,4 @@ title: About
   </p>
 </div>
 
-</div>
 <!-- =============== END ENGLISH =============== -->
